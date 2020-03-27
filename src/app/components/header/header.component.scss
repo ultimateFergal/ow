@@ -1,0 +1,55 @@
+@import '../../../styles/owners-week/colors.scss';
+@import '../../../styles/owners-week/variables.scss';
+
+.ow-header {
+  background: $black;
+  padding: 1% 10%;
+}
+
+.ow-header-logo {
+  width: 80%;
+}
+
+.nav-link {
+  color: #fff !important;
+
+  font: {
+    size: 0.8em;
+    family: $font-family-myriadpro-regular;
+  }
+}
+
+.rightItems {
+  right: 0 auto;
+}
+
+.btn-transparent {
+  color: #fff;
+}
+
+.ow-button {
+  border-radius: 0%;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+
+@media screen and (max-width: 765px) {
+  .ow-access-nav {
+    display: none;
+  }
+
+  .ow-header {
+    padding: 1% 5%;
+  }
+
+  .ow-header-logo {
+    width: 40%;
+  }
+
+  .navbar-brand {
+    width: 100%;
+  }
+}
