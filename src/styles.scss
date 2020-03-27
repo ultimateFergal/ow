@@ -814,7 +814,7 @@ hr.line {
 //NHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNHNH
 
 
-.ow-home-container-att-np {
+/* .ow-home-container-att-np {
   max-height: 360px !important;
   min-height: 360px !important;
 
@@ -824,9 +824,9 @@ hr.line {
     justify-content: center !important;
     display: flex !important;
   }
-}
+} */
 
-.ow-home-container-att-np-mg {
+/* .ow-home-container-att-np-mg {
   max-height: 344px !important;
   min-height: 344px !important;
 
@@ -836,11 +836,12 @@ hr.line {
     justify-content: center !important;
     display: flex !important;
   }
-}
+} */
 
-.ow-home-container-girl-nh {
-  max-height: 344px !important;
-  min-height: 344px !important;
+/* .ow-home-container-girl-nh {
+  background: url("./assets/images/curly-girl-banner-web.png") no-repeat;
+  background-size: cover;
+  max-height: 500px;
 
   &.large {
     height: 1000px !important;
@@ -848,7 +849,7 @@ hr.line {
     justify-content: center !important;
     display: flex !important;
   }
-}
+} */
 
 
 .ow-home-container-nh {
@@ -875,10 +876,6 @@ hr.line {
   background-size: cover;
 }
 
-.nh3 {
-  background: url(./assets/images/curly-girl-banner-web.png) no-repeat;
-  background-size: cover;
-}
 
 .ow-home-text-nh {
   padding-top: 40px;
@@ -886,15 +883,21 @@ hr.line {
   text-align: left;
 }
 
-@media screen and (max-width: 1440px) and (min-width: 767px) {
+@media screen and (max-width: 765px) {
   .ow-home-text-nh {
-    padding-left: 40px;
+    padding-left: 10%
   }
 }
 
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 1144px) and (min-width: 766px) {
   .ow-home-text-nh {
-    padding-left: 20px;
+    padding-left: 10% !important;
+  }
+}
+
+@media screen and (max-width: 1443px) and (min-width: 1145px) {
+  .ow-home-text-nh {
+    padding-left: 10% !important;
   }
 }
 
@@ -910,16 +913,15 @@ hr.line {
     object-fit: cover;
   }
 
-  .ow-home-container-girl-nh {
-    max-height: 304px !important;
-    min-height: 304px !important;
+/*   .ow-home-container-girl-nh {
+    max-height: 500px;
     text-align: center;
     justify-content: center;
     width: 100%;
     background: url("./assets/images/curly-girl-banner-mobile.png") no-repeat;
     background-size: cover;
     object-fit: cover;
-  }
+  } */
 
   .ow-home-container-att-np-mg {
     max-height: 304px !important;
@@ -932,7 +934,7 @@ hr.line {
     object-fit: cover;
   }
 
-  .ow-home-container-att-np {
+/*   .ow-home-container-att-np {
     max-height: 320px !important;
     min-height: 320px !important;
     text-align: center;
@@ -941,7 +943,7 @@ hr.line {
     background: url("./assets/images/abm.png") no-repeat;
     background-size: cover;
     object-fit: scale-down;
-  }
+  } */
 }
 
 
@@ -951,6 +953,8 @@ hr.line {
 .ow-article-detail {
   margin-top: 30px;
   margin-bottom: 30px;
+  padding-left: 9.5rem;
+  padding-right: 9.5rem;
 
   > section.row {
     > div {

@@ -1,3 +1,21 @@
+@import "../../../styles/owners-week/variables.scss";
+@import "../../../styles/owners-week/colors.scss";
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.ow-home-container-att-np-mg {
+  background: url(../../../assets/images/biw.png) no-repeat;
+  background-size: cover;
+  // max-height: 500px;
+
+  min-height: 383px !important;
+}
+
 // .ow-article-detail {
 //   > section {
 //     width: 100% !important;

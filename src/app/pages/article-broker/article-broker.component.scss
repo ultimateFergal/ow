@@ -1,6 +1,14 @@
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 .ow-home-container-att-np {
-  max-height: 360px !important;
-  min-height: 360px !important;
+  background: url(../../../assets/images/abw.png) no-repeat;
+  background-size: cover;
+  min-height: 383px !important;
 
   &.large {
     height: 1000px;
@@ -116,7 +124,7 @@
     object-fit: cover;
   }
 
-  .ow-home-container-att-np {
+/*   .ow-home-container-att-np {
     max-height: 320px !important;
     min-height: 320px !important;
     text-align: center;
@@ -125,7 +133,7 @@
     background: url("../../../assets/images/abm.png") no-repeat;
     background-size: cover;
     object-fit: scale-down;
-  }
+  } */
 }
 
 

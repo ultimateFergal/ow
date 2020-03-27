@@ -777,3 +777,11 @@ footer {
     display: none;
   }
 }
+
+
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}

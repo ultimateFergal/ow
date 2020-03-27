@@ -1,3 +1,19 @@
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.ow-home-container-girl-nh {
+  background: url("../../../assets/images/curly-girl-banner-web.png") no-repeat;
+  background-size: cover;
+  // max-height: 500px;
+
+  min-height: 383px !important;
+}
+
+
 // .ow-article-detail {
 //   > section {
 //     width: 80%;
