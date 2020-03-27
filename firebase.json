@@ -1,7 +1,6 @@
 {
   "hosting": {
-    "site": "interviewsdev",
-    "public": "dist",
+    "public": "ow",
     "ignore": [
       "firebase.json",
       "**/.*",

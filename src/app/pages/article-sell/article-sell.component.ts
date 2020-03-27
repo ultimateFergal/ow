@@ -17,6 +17,10 @@ export class ArticleSellComponent implements OnInit {
     // this.router.navigate([']);
   }
 
+  goHireAdvisor() {
+
+  }
+
   goArticleHire() {
     this.router.navigate(['article-hire']);
     window.scrollTo(0, 0);

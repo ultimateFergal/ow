@@ -13,4 +13,8 @@ export class ArticleHireComponent implements OnInit {
   ngOnInit() {
   }
 
+  goHireAdvisor() {
+
+  }
+
 }

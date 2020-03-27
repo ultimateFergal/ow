@@ -11,10 +11,12 @@ export class ArticleSellSecondComponent implements OnInit {
   constructor(private router: Router) { }
 
   ngOnInit() {
-    scrollTo(0, 0)
+    scrollTo(0, 0);
   }
 
+  goHireAdvisor() {
 
+  }
   goArticleHire() {
     this.router.navigate(['article-hire']);
     window.scrollTo(0, 0);
